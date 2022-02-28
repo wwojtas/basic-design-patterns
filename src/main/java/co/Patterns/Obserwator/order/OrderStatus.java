@@ -1,4 +1,4 @@
-package main.java.co.devfoundry.order;
+package main.java.co.Patterns.Obserwator.order;
 
 public enum OrderStatus {
 

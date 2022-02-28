@@ -1,10 +1,10 @@
-package main.java.co.devfoundry;
+package main.java.co.Patterns.Obserwator;
 
-import main.java.co.devfoundry.notification.Email;
-import main.java.co.devfoundry.notification.MobileApp;
-import main.java.co.devfoundry.notification.TextMessage;
-import main.java.co.devfoundry.order.Order;
-import main.java.co.devfoundry.order.OrderStatus;
+import main.java.co.Patterns.Obserwator.notification.Email;
+import main.java.co.Patterns.Obserwator.notification.MobileApp;
+import main.java.co.Patterns.Obserwator.notification.TextMessage;
+import main.java.co.Patterns.Obserwator.order.Order;
+import main.java.co.Patterns.Obserwator.order.OrderStatus;
 
 public class Main {
     public static void main(String[] args) {

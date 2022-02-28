@@ -1,6 +1,6 @@
-package main.java.co.devfoundry.order;
+package main.java.co.Patterns.Obserwator.order;
 
-import main.java.co.devfoundry.notification.Observer;
+import main.java.co.Patterns.Obserwator.notification.Observer;
 
 public interface Observable {
 

@@ -1,6 +1,6 @@
-package main.java.co.devfoundry.notification;
+package main.java.co.Patterns.Obserwator.notification;
 
-import main.java.co.devfoundry.order.Order;
+import main.java.co.Patterns.Obserwator.order.Order;
 
 public class MobileApp implements Observer {
 
