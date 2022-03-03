@@ -20,4 +20,14 @@ public class RedFactory extends Factory{
                 throw  new UnsupportedOperationException("Nieznany typ ");
         }
     }
+
+    @Override
+    public AirUnit createAirUnit(UnitType type) {
+        switch (type) {
+            case HELICOPTER:
+                return new AirHelicopter(50,0,55);
+            default:
+                throw  new UnsupportedOperationException("Nieznany typ ");
+        }
+    }
 }
