@@ -8,7 +8,7 @@ public class TeslaTank {
     private UnitStats stats;
 
     public TeslaTank(int x, int y) {
-        stats = UnitStatsRepository.getTeslaTankUnitStats();
+        stats = UnitStatsRepository.getTeslaTankStats();
         this.x = x;
         this.y = y;
         this.hpLeft = stats.getHp();

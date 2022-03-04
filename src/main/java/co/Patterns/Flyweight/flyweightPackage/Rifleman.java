@@ -6,12 +6,13 @@ public class Rifleman {
     private int y;
     private int hpLeft;
 
-//    private UnitStats
+    private UnitStats stats;
 
     public Rifleman(int x, int y) {
+        this.stats = UnitStatsRepository.getRiflemanStats();
         this.x = x;
         this.y = y;
-//        this.hpLeft = ;
+        this.hpLeft = stats.getHp();
 
     }
 }
