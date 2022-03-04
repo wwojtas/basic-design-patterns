@@ -2,25 +2,16 @@ package main.java.co.Patterns.Flyweight.flyweightPackage;
 
 public class TeslaTank {
 
-    private String name;
-    private int hp;
-    private int armour;
-    private int damageDealt;
-    private int speed;
     private int x;
     private int y;
     private int hpLeft;
-    private int resourceCost;
+    private UnitStats stats;
 
-    public TeslaTank(String name, int hp, int armour, int damageDealt, int speed, int x, int y, int resourceCost) {
-        this.name = name;
-        this.hp = hp;
-        this.armour = armour;
-        this.damageDealt = damageDealt;
-        this.speed = speed;
+    public TeslaTank(int x, int y) {
+        stats = UnitStatsRepository.getTeslaTankUnitStats();
         this.x = x;
         this.y = y;
-        this.hpLeft = hp;
-        this.resourceCost = resourceCost;
+        this.hpLeft = stats.getHp();
+
     }
 }

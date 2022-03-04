@@ -1,6 +1,6 @@
 package main.java.co.Patterns.Flyweight.flyweightPackage;
 
-public class DestroyerUnitStats {
+public class UnitStats {
 
     private String name;
     private int hp;
@@ -9,7 +9,7 @@ public class DestroyerUnitStats {
     private int speed;
     private int resourceCost;
 
-    public DestroyerUnitStats(String name, int hp, int armour, int damageDealt, int speed, int resourceCost) {
+    public UnitStats(String name, int hp, int armour, int damageDealt, int speed, int resourceCost) {
         this.name = name;
         this.hp = hp;
         this.armour = armour;
