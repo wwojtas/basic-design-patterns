@@ -1,6 +1,6 @@
 package main.java.ZadaniaDoWykonania.WzorceProjektowe.Dekorator;
 
-abstract public class MealDecorator extends Meal{
+public abstract class MealDecorator extends Meal{
 
     protected Meal meal;
 

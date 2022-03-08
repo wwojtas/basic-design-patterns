@@ -5,6 +5,6 @@ public class PotatoMeal extends Meal{
     @Override
     public void prepareMeal() {
         super.prepareMeal();
-        System.out.println(" na bazie ziemniaków");
+        System.out.println(" ziemniaczki ");
     }
 }

@@ -1,8 +1,8 @@
 package main.java.ZadaniaDoWykonania.WzorceProjektowe.Dekorator;
 
-abstract public class Meal {
+public abstract class Meal {
 
     public void prepareMeal() {
-        System.out.print("Przygotowuję danie");
+        System.out.print("Danie podstawowe + ");
     }
 }

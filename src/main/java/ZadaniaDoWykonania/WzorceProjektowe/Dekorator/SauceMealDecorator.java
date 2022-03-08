@@ -13,7 +13,7 @@ public class SauceMealDecorator extends MealDecorator{
     }
 
     private void addSauce() {
-        System.out.println("Do dania dodaję sos");
+        System.out.println("Dekoruję- sos koperkowy ");
     }
 
 }
